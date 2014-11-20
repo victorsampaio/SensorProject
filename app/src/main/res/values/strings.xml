@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensorProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sensor_list">SensorListActivity</string>
+    <string name="title_activity_sensor_accelerometer_check_availability">SensorAccelerometerCheckAvailabilityActivity</string>
+    <string name="title_activity_sensor_light">SensorLightActivity</string>
+    <string name="title_activity_ambient_temperature">AmbientTemperatureActivity</string>
+    <string name="title_activity_sensor_proximity">SensorProximityActivity</string>
+
+</resources>

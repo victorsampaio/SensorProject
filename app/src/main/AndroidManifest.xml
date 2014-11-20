@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.com.sensorproject" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SensorProjectMainctivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SensorListActivity"
+            android:label="@string/title_activity_sensor_list" >
+        </activity>
+        <activity
+            android:name=".SensorAccelerometerCheckAvailabilityActivity"
+            android:label="@string/title_activity_sensor_accelerometer_check_availability" >
+        </activity>
+        <activity
+            android:name=".light.SensorLightActivity"
+            android:label="@string/title_activity_sensor_light" >
+        </activity>
+        <activity
+            android:name=".temperature.AmbientTemperatureActivity"
+            android:label="@string/title_activity_ambient_temperature" >
+        </activity>
+        <activity
+            android:name=".proximity.SensorProximityActivity"
+            android:label="@string/title_activity_sensor_proximity" >
+        </activity>
+    </application>
+
+</manifest>
