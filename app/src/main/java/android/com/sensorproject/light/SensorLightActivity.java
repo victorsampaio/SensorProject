@@ -55,7 +55,7 @@ public class SensorLightActivity extends Activity implements SensorEventListener
     public void onSensorChanged(SensorEvent event) {
         // Read the sensor value(intensity of the light)
         float value = event.values[0];
-        ((TextView)findViewById(R.id.tValue)).setText("Light: " + value);
+        ((TextView)findViewById(R.id.tValue)).setText("Proximity: " + value);
         //updates the value of the SeekBar
         progress.setProgress((int)value);
     }
